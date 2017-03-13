@@ -1,114 +1,336 @@
-h1 {
-	font-family: 'Overpass', sans-serif;
-	font-size: 50px;
-	font-weight: 100;
+@media only screen and (min-width:240px) and (max-width: 600px),
+@media only screen and (max-width: 601px)  {
+
+	body, html {
+		background-image: linear-gradient(180deg, #306DDF 0%, #283954 100%);
+		position: relative;
+		width: 100vw;
+	}
+
+	h1 {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 20px;
+		color: #FFFFFF;
+		font-weight: 400;
+		text-align: center;
+	}
+
+	h2 {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 50px;
+		color: #FFFFFF;
+		font-weight: 400;
+		text-align: center;
+		padding-top: 60px;
+	}
+
+	p.litres {
+		font-size: 30px;
+		padding-top: -100px;
+	}
+
+	#intro {
+		padding-top: 200px;
+		font-size: 20px;
+		height: 100vh;
+	}
+
+	p {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 20px;
+		color: #FFFFFF;
+		font-weight: 300;
+		text-align: center;
+	}
+
+	strong {
+		font-weight: 700;
+	}
+
+	.content {
+		max-width: 70vw;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.full {
+		width: 70vw;
+		position: relative;
+	    align-items: center;
+	    margin: 0 auto;
+	    vertical-align: baseline;
+	}
+
+	#background-info {
+		text-align: center;
+		height: 100vh;
+		padding-top: 200px;
+	}
+
+	.text {
+		width: 100%;
+		float: center;
+		position: relative;
+		display: block;
+	}
+
+	#three {
+		height: 800px;
+	}
+	#four {
+		height: 900px;
+	}
+	#five {
+		height: 1000px;
+	}
+	#six {
+		height: 900px;
+	}
+
+	#seven {
+		height: 900px;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+		height: 200px;
+	}
 }
 
-p {
-	font-family: 'Overpass', sans-serif;
-	font-size: 14px;
-	font-weight: 300;
+@media only screen and (min-width:601px) and (max-width: 768px),
+@media only screen and (max-width: 769x)  {
+
+	body, html {
+		background-image: linear-gradient(180deg, #306DDF 0%, #283954 100%);
+		position: relative;
+		width: 100vw;
+	}
+
+	h1 {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 20px;
+		color: #FFFFFF;
+		font-weight: 400;
+		text-align: center;
+	}
+
+	h2 {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 50px;
+		color: #FFFFFF;
+		font-weight: 400;
+		text-align: left;
+		padding-top: 60px;
+	}
+
+	p.litres {
+		font-size: 30px;
+		padding-top: -100px;
+	}
+
+	#intro {
+		padding-top: 250px;
+		font-size: 20px;
+	}
+
+	p {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 20px;
+		color: #FFFFFF;
+		font-weight: 300;
+	}
+
+	strong {
+		font-weight: 700;
+	}
+
+	.content {
+		max-width: 70vw;
+		margin: 0 auto;
+	}
+
+	.full {
+		width: 70vw;
+		height: 100vh;
+	    position: relative;
+	    align-items: center;
+	}
+
+	#background-info {
+		text-align: center;
+		height: 100vh;
+		padding-top: 250px;
+	}
+
+	.text {
+		width: 50%;
+		float: right;
+	}
+
+	img {
+		float:left;
+	    position: relative;
+	    width: 45%;
+	}
+
 }
 
-.content 
-{
-    margin: 2em auto;
-    max-width: 40em;
-    padding: 0 1em;
+@media only screen and (min-width:769px) and (max-width: 1170px),
+@media only screen and (max-width: 1171px)  {
+
+	body, html {
+		background-image: linear-gradient(180deg, #306DDF 0%, #283954 100%);
+		position: relative;
+		width: 100vw;
+	}
+
+	h1 {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 20px;
+		color: #FFFFFF;
+		font-weight: 400;
+		text-align: center;
+	}
+
+	h2 {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 50px;
+		color: #FFFFFF;
+		font-weight: 400;
+		text-align: left;
+		padding-top: 60px;
+	}
+
+	p.litres {
+		font-size: 30px;
+		padding-top: -100px;
+	}
+
+	#intro {
+		padding-top: 260px;
+		font-size: 20px;
+	}
+
+	p {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 20px;
+		color: #FFFFFF;
+		font-weight: 300;
+	}
+
+	strong {
+		font-weight: 700;
+	}
+
+	.content {
+		max-width: 70vw;
+		margin: 0 auto;
+	}
+
+	.full {
+		width: 70vw;
+		height: 100vh;
+	    position: relative;
+	    align-items: center;
+	}
+
+	#background-info {
+		text-align: center;
+		height: 100vh;
+		padding-top: 260px;
+	}
+
+	.text {
+		width: 50%;
+		float: right;
+	}
+
+	img {
+		float:left;
+	    position: relative;
+	    max-width: 300px;
+	    width: 45%;
+	}
 }
 
-html, body 
-{
-    height: 100%;
-}
+@media only screen and (min-width:1171px) and (max-width: 2000px),
+@media only screen and (max-width: 2000px)  {
 
-.full 
-{
-    height: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-}
+	body, html {
+		background-image: linear-gradient(180deg, #306DDF 0%, #283954 100%);
+		position: relative;
+		width: 100vw;
+	}
 
-.logo 
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 320px;
-    height: 320px;
-    margin-left: -160px;
-    margin-top: -160px;
-}
+	h1 {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 20px;
+		color: #FFFFFF;
+		font-weight: 400;
+		text-align: center;
+	}
 
-.logo img 
-{
-    width: 100%;
-}
+	h2 {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 50px;
+		color: #FFFFFF;
+		font-weight: 400;
+		text-align: left;
+		padding-top: 60px;
+	}
 
-#one 
-{ 
-    background-image: url("../images/one.jpg"); 
-}
+	p.litres {
+		font-size: 30px;
+		padding-top: -100px;
+	}
 
-#two 
-{ 
-    background-image: url("../images/two.jpg"); 
-}
+	#intro {
+		padding-top: 275px;
+		font-size: 20px;
+	}
 
-#three
-{ 
-    background-image: url("../images/three.jpg"); 
-}
+	p {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 20px;
+		color: #FFFFFF;
+		font-weight: 300;
+	}
 
-#four
-{ 
-    background-image: url("../images/four.jpg"); 
-}
+	strong {
+		font-weight: 700;
+	}
 
-#five
-{ 
-    background-image: url("../images/five.jpg"); 
-}
+	.content {
+		max-width: 70vw;
+		margin: 0 auto;
+	}
 
+	.full {
+		width: 70vw;
+		height: 100vh;
+	    position: relative;
+	    align-items: center;
+	}
 
-#mc_embed_signup 
-{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 30em;
-	height: 13em;
-	margin: -6.5em 0 0 -15em;
-	opacity: 0.75;
-	background: white;
-}
+	#background-info {
+		text-align: center;
+		height: 100vh;
+		padding-top: 275px;
+	}
 
-input 
-{
-	box-sizing: border-box;
-	width: 100%;
-	margin: 2em;
-	margin-left: 2em;
-}
+	.text {
+		width: 65%;
+		float: right;
+	}
+	
+	section {
+		display: block;
+	}
 
-input[type="email"] 
-{
-	padding: .5em;
-	background: yellow;
-	width: 2em auto;
-	width: 300px;
-	margin-left: 2em;
-}
-
-input[type="submit"]
-{
-	margin: 1em 0;
-	background-color: black;
-	color: yellow;
-	border-radius: .25em;
-	border: none;
-	padding: .5em;
-	width: 300px;
-	/*font-size: 1.5em;*/
+	img {
+		float:left;
+	    position: relative;
+	    width: 30%;
+	}
 }

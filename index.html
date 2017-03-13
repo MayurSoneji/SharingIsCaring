@@ -1,80 +1,104 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>What Water?</title>
+    <script type="text/JavaScript" src="js/script.js"></script>
+    <script type="text/JavaScript" src="js/jquery.min.js"></script>
+    <script type="text/JavaScript" src="js/html5shiv.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
 
-  <title>Learning with Tor</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+    <script>
+				$(function() {
+					$.scrollify({
+						section : ".full",
+					});
+				});
+	</script>
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+  </head>
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
 
-<body>
-	<section class="full" id="one">
-		<div class="logo">
-	    <img src="images/logo.png" alt="Playstation" width="200px">
-		</div>
-	</section>
+  <body>
 
-	<section class="content">
-		
-			<h1>Hello and welcome to my website</h1>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
-			<p>You are really in the wrong place so what exactly do you want?</p>
 
-			<h1>Are you still reading?</h1>
+  	<div class="content">
 
-			<p>Well <i>sir</i>, you are a <b>Dumbass</b>.</p>
+		 <section class="full" data-section-name="first" id="intro" >
+		 	<div class="inner">
+		 		<h1>Hi there, I’m Mayur! <br /><br />Enter the site at your own will, get informed about water.</h1>
+		 	</div>
+		 </section>
 
-			<h1>Don't worry, its our secret</h1>
+	 	<section class="full" data-section-name="second" id="background-info">
+	 		<div class="inner">
+	 			<p class="litres">If I give you <strong>300</strong> litres of water today,<br /> where would you use it? <br /> <br />Lets divide it up!</p>
+	 		</div>
+	 	</section>
 
-			<p>This is some extra text.</p>
-		</div>
-	</section>
+	 	<section class="full" id="three" data-section-name="third">
+	 		<h2>Get Up In The Morning</h2>
+	 		<br />
+	 		<br />
+	 		<br />
+	 		<br />
+	 		<img src="images/shower.svg" alt="Shower Icon"> <br /> <br />
+	 		<p class="text">So its the morning….<br /><br />You get up 08:00 and spend the first hour getting ready.<br /><br />In that hour you brush your teeth, have a bath or a shower, maybe even drink a glass of water in the morning…</p>
+	 	</section>
 
-	<section class="full" id="two">
-		
-	</section>
+	 	 <section class="full" id="four" data-section-name="fourth">
+	 		<h2>Lunch Time!</h2>	 		
+	 		<br />
+	 		<br />
+	 		<br />
+	 		<br />
+	 		<img src="images/cook.svg" alt="cooker Icon"> <br /> <br />
+	 		<p class="text">Lunch time comes, have to cook something (unless, you cheat and buy a meal) but someone still uses water to cook.<br /><br />Cooking gets hot, you drink more water, you put more water in the pot and then after, you wash the dishes, using more and more water.</p>
+	 	</section>
 
-	<section class="full" id="three">
-		
-	</section>
+	 	 <section class="full" id="five" data-section-name="fifth">
+	 		<h2>Lunch Break</h2>
+	 		<br />
+	 		<br />
+	 		<br />
+	 		<br />
+	 		<img src="images/toilet.svg" alt="toilet Icon"> <br /> <br />
+	 		<p class="text">You had a great meal, unfortunately it only sat in your stomach for two hours, time to get it out!<br /><br />You go to use the restroom, use the toilet.<br /><br />Flush once, didn’t all flush…<br /><br />Flush twice, didn’t get all of it…<br /><br />Flush third time, finally its all gone!<br /><br />Now you have to wash your hands, at least I hope you did..</p>
+	 	</section>
 
-	<section class="full" id="four">
-		
-	</section>
+	 	<section class="full" id="six" data-section-name="sixth">
+	 		<h2>Dinner Time</h2>
+	 		<br />
+	 		<br />
+	 		<br />
+	 		<br />
+	 		<img src="images/cook.svg" alt="cook Icon"> <br /> <br />
+	 		<p class="text">Same concept as lunch but on a more bigger scale…<br /><br />Time to get a pan, spoons and other cooking equipment and putting them to work.<br /><br />Again you go ahead and start washing up, but if your healthy you would also have had water with your meal!</p>
+	 	</section>
 
-	
+	 	<section class="full" id="seven" data-section-name="seventh">
+	 		<h2>Rest your bowels one more time</h2>
+	 		<br />
+	 		<br />
+	 		<br />
+	 		<br />
+	 		<img src="images/toilet.svg" alt="toilet Icon"> <br /> <br />
+	 		<p class="text">So your meal was great, again you have to get rid of all the lovely food you had just eaten…<br /><br />How many flushes did you need?<br />One?<br />Two?<br />Three?<br />More?<br /><br />Drink one more glass of water and off to bed!</p>
+	 	</section>
 
-	<section class="full" id="five">
-		<div id="mc_embed_signup">
-	  		<form action="//twitter.us12.list-manage.com/subscribe/post?u=43efbdeecd252c30b1ead06d0&amp;id=ab4c4ec792" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-		      	<div id="mc_embed_signup_scroll">
-		          <div class="mc-field-group">
-		              <label for="mce-EMAIL">Email Address </label>
-		              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-		          </div>
-		        <div id="mce-responses" class="clear">
-		              <div class="response" id="mce-error-response" style="display:none"></div>
-		              <div class="response" id="mce-success-response" style="display:none"></div>
-		          </div> 
-		          <div style="position: absolute; left: -5000px;" aria-hidden="true">
-		          <input type="text" name="b_43efbdeecd252c30b1ead06d0_ab4c4ec792" tabindex="-1" value="">
-		      	</div>
-		      	<div class="clear">
-		          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-		      	</div>
-		    	</div>
-	  		</form>
-  		</div>
-	</section>
-</body>
+
+	 </div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/html5shiv.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/script.js"></script>
+
+  </body>
 </html>
